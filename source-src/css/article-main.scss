@@ -57,11 +57,12 @@
 .article {
   margin: 30px;
   position: relative;
-  border: 1px solid #ddd;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  /* border: 1px solid #ddd; */
+  /* border-top: 1px solid #fff; */
+  /* border-bottom: 1px solid #fff; */
   background: #fff;
   transition: all 0.2s ease-in;
+  border-radius: 10px;
 /*   &.show{
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
@@ -73,6 +74,7 @@
   } */
   img{
     max-width: 100%;
+    border-radius: 4px;
   }
 }
 
@@ -90,9 +92,10 @@
 }
 
 .article-header{
-  border-left: 5px solid #4d4d4d;
+  border-left: 5px solid rgba(36,193,246,.9);
   padding: 30px 0px 15px 25px;
   padding-left: 7.6923%;
+  border-top-left-radius: 10px;
 }
 
 .article-meta{
